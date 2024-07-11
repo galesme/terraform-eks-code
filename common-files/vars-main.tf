@@ -2,7 +2,7 @@
 variable "region" {
   description = "The name of the AWS Region"
   type        = string
-  default     = "eu-west-1"
+  default     = "us-east-1"
 }
 
 variable "profile" {
@@ -20,7 +20,7 @@ variable "cluster-name" {
 
 variable "eks_version" {
   type    = string
-  default = "1.24"
+  default = "1.29"
 }
 
 variable "no-output" {
